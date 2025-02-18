@@ -1,0 +1,19 @@
+# Whether mace smashing is allowed
+mace-disabled: false
+# Cooldown of the mace in seconds. 0 for no cooldown.
+mace-cooldown: 30
+# When to cancel mace attack if on cooldown or disabled.
+# Options: always, above max
+cancel-when: "above max"
+# What happens when mace attack is cancelled
+# Options: clamp, cancel
+cancel-method: "cancel"
+# Max damage a mace can deal when clamped. Also used as criteria for detecting smash attacks.
+# Mace does 6 regularly; 9 when critical.
+max-damage: 9
+# How to message the player about the mace cooldown.
+# Options: chat, action bar, both, none
+feedback: "both"
+# Message sent to player who got their mace attack cancelled.
+feedback-msg-cooldown: "&4Mace on cooldown! Smash damage disabled."
+feedback-msg-disabled: "&4Smashing damage is disabled!"

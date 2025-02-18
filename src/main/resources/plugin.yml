@@ -1,0 +1,6 @@
+name: MaceControl
+version: '1.0'
+main: io.github.wravvv.maceControl.MaceControl
+api-version: '1.21'
+authors: [ Wrav ]
+description: Various controls for the mace
